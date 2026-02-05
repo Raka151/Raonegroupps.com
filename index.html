@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raone Group - Hidup Makin Mudah, Makin Manis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">RAONE <span>GROUP</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="digital.html"><i class="fas fa-wallet"></i> Raone Digital</a></li>
+                <li><a href="food.html"><i class="fas fa-utensils"></i> Raone Food</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang Kami</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>RAONE <span>GROUP</span></h1>
+            <p class="tagline">Hidup Makin Mudah, Makin Manis</p>
+            <p>Solusi digital praktis & dessert lezat dalam satu rumah. Melayani warga Sumedang dengan kemudahan dan kenikmatan.</p>
+            
+            <!-- Kontak langsung di hero -->
+            <div class="hero-contact">
+                <a href="https://instagram.com/raonegroupss" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i> @raonegroupss
+                </a>
+                <a href="mailto:raonegroupss@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i> raonegroupss@gmail.com
+                </a>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="digital.html" class="btn btn-primary">Lihat Layanan Digital</a>
+                <a href="food.html" class="btn btn-secondary">Explore Dessert Kami</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-card digital">
+                <i class="fas fa-bolt"></i>
+                <h3>Digital Solutions</h3>
+                <p>Konversi E-Wallet, Top-Up, Akun Sharing</p>
+            </div>
+            <div class="floating-card food">
+                <i class="fas fa-cheese"></i>
+                <h3>Delicious Desserts</h3>
+                <p>Gulung Keju & Regal Pudding Choco</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisi Section -->
+    <section class="divisions">
+        <h2>Dua Divisi Utama Kami</h2>
+        <div class="division-container">
+            <div class="division-card">
+                <div class="division-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>RAONE DIGITAL</h3>
+                <p>Layanan konversi e-wallet (OVO, DANA, GoPay, dll), top-up saldo, akun sharing premium, dan item digital. Untuk user non-premium & yang ingin bayar cash.</p>
+                <a href="digital.html" class="btn btn-outline">Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="division-card">
+                <div class="division-icon">
+                    <i class="fas fa-ice-cream"></i>
+                </div>
+                <h3>RAONE FOOD</h3>
+                <p>Signature dessert dengan bahan pilihan. Hadirkan kelezatan Gulung Keju dan Regal Pudding Choco untuk teman santai dan momen spesial Anda.</p>
+                <a href="food.html" class="btn btn-outline">Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jadwal Buka -->
+    <section class="schedule">
+        <h2>Jam Operasional</h2>
+        <div class="schedule-box">
+            <div class="schedule-item">
+                <h3><i class="fas fa-laptop"></i> Raone Digital</h3>
+                <p><strong>Setiap Hari</strong> (Senin - Jumat)</p>
+                <p class="hours">07.00 - 21.00 WIB</p>
+            </div>
+            <div class="schedule-item">
+                <h3><i class="fas fa-store"></i> Raone Food</h3>
+                <p><strong>Senin - Jumat</strong></p>
+                <p class="hours">07.00 - 21.00 WIB</p>
+                <p class="note">Sabtu & Minggu: Libur</p>
+            </div>
+            <div class="schedule-item">
+                <h3><i class="fas fa-map-marker-alt"></i> Lokasi</h3>
+                <p>Melayani area <strong>Sumedang Kota</strong> & sekitarnya</p>
+                <p class="note">Hubungi kami via Instagram atau Email</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rating Section -->
+    <section class="ratings-section">
+        <h2>Apa Kata Pelanggan Kami</h2>
+        <div class="ratings-container">
+            <!-- Rating Stats -->
+            <div class="rating-stats">
+                <div class="overall-rating">
+                    <div class="average-number">
+                        <span id="averageRating">0.0</span>
+                        <small>/5</small>
+                    </div>
+                    <div class="stars-average" id="averageStars">
+                        ☆☆☆☆☆
+                    </div>
+                    <p class="total-ratings"><span id="totalRatings">0</span> rating</p>
+                </div>
+                
+                <div class="rating-bars">
+                    <div class="rating-bar">
+                        <span>5 bintang</span>
+                        <div class="bar-container">
+                            <div class="bar" id="bar5" style="width: 0%"></div>
+                        </div>
+                        <span id="count5">0</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>4 bintang</span>
+                        <div class="bar-container">
+                            <div class="bar" id="bar4" style="width: 0%"></div>
+                        </div>
+                        <span id="count4">0</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>3 bintang</span>
+                        <div class="bar-container">
+                            <div class="bar" id="bar3" style="width: 0%"></div>
+                        </div>
+                        <span id="count3">0</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>2 bintang</span>
+                        <div class="bar-container">
+                            <div class="bar" id="bar2" style="width: 0%"></div>
+                        </div>
+                        <span id="count2">0</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>1 bintang</span>
+                        <div class="bar-container">
+                            <div class="bar" id="bar1" style="width: 0%"></div>
+                        </div>
+                        <span id="count1">0</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Rating Form -->
+            <div class="rating-form-container">
+                <h3>Berikan Rating Anda</h3>
+                <form id="ratingForm">
+                    <div class="form-group">
+                        <label for="userName">Nama Anda</label>
+                        <input type="text" id="userName" name="name" required 
+                               placeholder="Nama atau inisial" maxlength="50">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Rating (1-5 bintang)</label>
+                        <div class="star-rating-input">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5" title="5 bintang">★</label>
+                            
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4" title="4 bintang">★</label>
+                            
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3" title="3 bintang">★</label>
+                            
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2" title="2 bintang">★</label>
+                            
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1" title="1 bintang">★</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comment">Komentar (opsional)</label>
+                        <textarea id="comment" name="comment" rows="3" 
+                                  placeholder="Bagaimana pengalaman Anda dengan Raone Group?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" id="submitRating">
+                        Kirim Rating
+                    </button>
+                    <p class="form-note">Rating akan ditampilkan setelah dikirim.</p>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Recent Ratings -->
+        <div class="recent-ratings">
+            <h3>Rating Terbaru</h3>
+            <div class="ratings-list" id="ratingsList">
+                <!-- Rating akan diisi oleh JavaScript -->
+                <div class="loading">Memuat rating...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>RAONE GROUP</h3>
+                <p>Menyederhanakan hal digital & memaniskan momen hidup. Solusi praktis dan dessert lezat untuk Sumedang.</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/raonegroupss" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:raonegroupss@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="digital.html">Raone Digital</a></li>
+                    <li><a href="food.html">Raone Food</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p><i class="fab fa-instagram"></i> 
+                    <a href="https://instagram.com/raonegroupss" target="_blank">
+                        @raonegroupss
+                    </a>
+                </p>
+                <p><i class="fas fa-envelope"></i> 
+                    <a href="mailto:raonegroupss@gmail.com">
+                        raonegroupss@gmail.com
+                    </a>
+                </p>
+                <p><i class="fas fa-map-marker-alt"></i> Sumedang Kota, Jawa Barat</p>
+                <p><i class="fas fa-clock"></i> Buka Senin-Jumat: 07.00-21.00 WIB</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Raone Group. All rights reserved. | Hidup Makin Mudah, Makin Manis</p>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Buttons -->
+        <!-- Footer -->
+    ...footer code...
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact">
+        <a href="https://instagram.com/raonegroupss" target="_blank" class="float-btn ig" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:raonegroupss@gmail.com" class="float-btn email" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- LOAD SUPABASE LIBRARY FIRST -->
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    
+    <!-- Main Script -->
+    <script src="script.js"></script>
+    
+    <!-- Rating Script -->
+    <script src="rating.js"></script>
+
+</body>
+</html>
